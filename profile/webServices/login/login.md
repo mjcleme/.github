@@ -128,7 +128,7 @@ app.post('/auth/create', (req, res) => {
 ```
 
 ```sh
-➜  curl -X POST localhost:8080/auth/create -H 'Content-Type:application/json' -d '{"email":"marta@id.com", "password":"toomanysecrets"}'
+➜  curl -X POST localhost:8080/auth/create -H 'Content-Type:application/json' -d \'{"email":"marta@id.com", "password":"toomanysecrets"}\'
 
 {"id":"user@id.com","email":"marta@id.com","password":"toomanysecrets"}
 ```
